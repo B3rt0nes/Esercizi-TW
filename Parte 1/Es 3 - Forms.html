@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+        <p>Form per prenotare un volo da un luogo all'altro</p>
+        <table>
+            <tr>
+                <td><label for="nome">Inserisci il tuo nome</label></td>
+                <td><input type="text" name="nome" id="nome" required></td>
+            </tr><tr>
+                <td><label for="cognome">Inserisci il tuo cognome</label></td>
+                <td><input type="text" name="cognome" id="cognome"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Inserisci la tua email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="Partenza">Inserisci il luogo di partenza</label></td>
+                <td><select name="depart" id="from">a</select></td>
+            </tr>
+            <tr>
+                <td><label for="Arrivo">Inserisci il luogo di arrivo</label></td>
+                <td><select name="landing" id="to"></select></td>
+            </tr>
+            <tr>
+                <td><label for="date">Inserisci la data di partenza</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="accompagnamento">Con accompagnamento?</label></td>
+                <td><input type="checkbox" name="accompagnamento" id="accompagnamento"></td>
+            </tr><tr>
+                <td><button type="submit">Invia</button></td>
+            </tr><tr><td colspan="3"><hr></td></tr>
+    <!-- <div class="Esercizio 2"> -->
+        <tr><td colspan="2"><p>form per iscriversi ad una newsletter</p></td></tr>
+
+            <tr>
+                <td><label for="nome">Inserisci il tuo nome</label></td>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr><tr>
+                <td><label for="Cognome">Inserisci il tuo cognome</label></td>
+                <td><input type="text" name="cognome" id="cognome"></td>
+            </tr><tr>
+                <td><label for="Email">Inserisci la tua email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr><tr>
+                <td><label for="info">Ogni quanto vuoi ricevere le notizie?</label></td>
+                <td><select name="news" id="news">
+                    <option value="day">Quotidianamente</option>
+                    <option value="week">Settimanalmente</option>
+                    <option value="month">Mensilmente</option>
+                </td>
+            </tr><tr>
+                <td><label for="data">Accetti il trattamento dei dati?</label></td>
+                <td><input type="checkbox" name="data" id="data"></td>
+            </tr><tr>
+                <td><button type="submit">Iscriviti</button></td>
+            </tr><tr><td colspan="2"><hr></td></tr>
+
+            <tr><td colspan="2"><p>Form per creare una figra geometrica colorata</p></td></tr>
+            <tr>
+                <td><label for="shape">Scegli la forma della figura</label></td>
+                <td><select name="shape" id="shape">
+                    <option value="Cerchio">Cerchio</option>
+                    <option value="Quadrato">Quadrato</option>
+                    <option value="Triangolo">Triangolo</option>
+                </select></td>
+            </tr><tr>
+                <td><label for="lenght">Inserisci diametro/lunghezza del lato</label></td>
+                <td><input type="number" name="dimension" id="dmension" min="1" max="100" required></td>
+            </tr><tr>
+                <td><label for="color">Inserisci il colore dello sfondo</label></td>
+                <td><input type="color" name="background-color" id="background-color" value="#ffffff"></td>
+            </tr><tr>
+                <td><label for="width">Inserisci lo spessore del bordo</label></td>
+                <td><input type="number" name="border-width" id="border-width" min="1" max="10"></td>
+            </tr><tr>
+                <td><label for="border">Inserisci il colore del bordo</label></td>
+                <td><input type="color" name="border-color" id="border-color" value="#000000"></td>
+            </tr><tr>
+                <td><button type="submit">Genera</button></td>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+    </table>
+    <!-- </div> -->
+</body>
+</html>
