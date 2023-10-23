@@ -1,0 +1,35 @@
+div {
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+}
+#one {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+#two {
+    background-color: orange;
+    top: 20vh;
+    left: 0;
+}
+#three {
+    background-color: yellow;
+    top: 40vh;
+    left: 0;
+}
+#four {
+    background-color: green;
+    top: 60vh;
+    left: 0;
+}
+#five {
+    background-color: blue;
+    top: 80vh;
+    left: 0;
+}
+#six {
+    background-color: purple;
+    top: 100vh;
+    left: 0;
+}
