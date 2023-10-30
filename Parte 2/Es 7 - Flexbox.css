@@ -26,7 +26,9 @@ header {
 
 section {
     display: flex;
+    /* ordina tutti gli elementi dentro a <section> in riga*/
     flex-direction: row;
+    /* flex-direction: column; */
     flex-wrap: wrap;
 }
 
